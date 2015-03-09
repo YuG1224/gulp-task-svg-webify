@@ -35,4 +35,6 @@ $ gulp webserver
 
 [http://localhost:8000](http://localhost:8000) でwebfontを確認することが出来ます。
 
+![sample](https://raw.githubusercontent.com/YuG1224/gulp-task-svg-webify/master/doc/sample.png)
+
 `src/svg/*.svg`の変更を監視して minify, webify を自動実行し、livereload機能によってブラウザを自動で更新します。
