@@ -1,0 +1,42 @@
+{
+  "name": "gulp-task-svg-webify",
+  "version": "1.0.0",
+  "description": "Minify & Webify SVG",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YuG1224/gulp-task-svg-webify.git"
+  },
+  "keywords": [
+    "gulp",
+    "svg",
+    "minify",
+    "webify"
+  ],
+  "author": {
+    "name": "Yuji Yamaguchi",
+    "email": "yug.1224@gmail.com",
+    "url": "http://blog.yug1224.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YuG1224/gulp-task-svg-webify/issues"
+  },
+  "homepage": "https://github.com/YuG1224/gulp-task-svg-webify",
+  "devDependencies": {
+    "coffee-script": "^1.9.1",
+    "del": "^1.1.1",
+    "gulp": "^3.8.11",
+    "gulp-concat": "^2.5.2",
+    "gulp-consolidate": "^0.1.2",
+    "gulp-foreach": "^0.1.0",
+    "gulp-iconfont": "^1.0.0",
+    "gulp-svgmin": "^1.1.1",
+    "gulp-webserver": "^0.9.0",
+    "handlebars": "^3.0.0",
+    "run-sequence": "^1.0.2"
+  }
+}
