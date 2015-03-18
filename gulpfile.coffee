@@ -11,6 +11,7 @@ webserver = require "gulp-webserver"
 options =
   fontName: "webfont"
   className: "wf"
+  startCodepoint: 0xF001
 
 # minify
 gulp.task "minify", () ->
